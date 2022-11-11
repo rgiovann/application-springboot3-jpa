@@ -1,16 +1,20 @@
-## Spring Boot 3.0 backend application running with Postgres 12.1 on Heroku cloud
+## **_Spring Boot 3.0 backend application running with Postgres 12.1 on Heroku cloud_**
 
-## FOR DETAILS CHECK --> class_diagram.jpg and instance_diagram.jpg
+### FOR DETAILS CHECK --> class_diagram.jpg and instance_diagram.jpg
 
-## HTTP address is https://rgiovann-springboot-app.herokuapp.com/
+![Class diagram](/class_diagram.jpg)
 
-## ----- USER TABLE ---
+![CInstance diagram](/instance_diagram.jpg)
 
-### ADD USER Postman
+Link to application: https://rgiovann-springboot-app.herokuapp.com/
 
-### PUT https://rgiovann-springboot-app.herokuapp.com/users
+----- **USER TABLE** ---
 
-### JSON body
+ADD USER Postman
+
+PUT https://rgiovann-springboot-app.herokuapp.com/users
+
+JSON body
 
 {
 
@@ -24,15 +28,15 @@
 
 }
 
-### DELETE USER Postman
+DELETE USER Postman
 
-### DELETE https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
+DELETE https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
 
-### UPDATE USER Postman
+UPDATE USER Postman
 
-### POST https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
+POST https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
 
-### JSON body
+JSON body
 
 {
 
@@ -46,42 +50,40 @@
 
 }
 
-### GET ALL USERS Postman
+GET ALL USERS Postman
 
-### GET https://rgiovann-springboot-app.herokuapp.com/users
+GET https://rgiovann-springboot-app.herokuapp.com/users
 
-### GET USER BY ID
+GET USER BY ID
 
-### GET https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
+GET https://rgiovann-springboot-app.herokuapp.com/users/ID ID= user oid
 
-### ============================================================================
+----- **CATEGORY TABLE** ---
 
-## ----- CATEGORY TABLE ---
+GET ALL CATEGORIES Postman
 
-### ## GET ALL CATEGORIES Postman
+GET https://rgiovann-springboot-app.herokuapp.com/categories
 
-### GET https://rgiovann-springboot-app.herokuapp.com/categories
+GET CATEGORY BY ID
 
-### GET CATEGORY BY ID
+GET https://rgiovann-springboot-app.herokuapp.com/user/categories/ID ID= user oid
 
-### GET https://rgiovann-springboot-app.herokuapp.com/user/categories/ID ID= user oid
+----- **ORDERS TABLE** ---
 
-## ----- ORDERS TABLE ---
+GET ALL ORDERS Postman
 
-### ## GET ALL ORDERS Postman
+GET https://rgiovann-springboot-app.herokuapp.com/orders
 
-### GET https://rgiovann-springboot-app.herokuapp.com/orders
+GET ORDER BY ID
 
-### GET ORDER BY ID
+GET https://rgiovann-springboot-app.herokuapp.com/user/orders/ID ID= user oid
 
-### GET https://rgiovann-springboot-app.herokuapp.com/user/orders/ID ID= user oid
+----- **PRODUCTS TABLE** ---
 
-## ----- PRODUCTS TABLE ---
+GET ALL PRODUCTS Postman
 
-### ## GET ALL PRODUCTS Postman
+GET https://rgiovann-springboot-app.herokuapp.com/products
 
-### GET https://rgiovann-springboot-app.herokuapp.com/products
+GET PRODUCT BY ID
 
-### GET PRODUCT BY ID
-
-### GET https://rgiovann-springboot-app.herokuapp.com/user/products/ID ID= user oid
+GET https://rgiovann-springboot-app.herokuapp.com/user/products/ID ID= user oid
