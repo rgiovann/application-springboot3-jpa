@@ -1,7 +1,5 @@
 ## **_Spring Boot 3.0 backend application running with Postgres 12.1 on Heroku cloud_**
 
-### FOR DETAILS CHECK --> class_diagram.jpg and instance_diagram.jpg
-
 ![Class diagram](/class_diagram.jpg)
 
 ![CInstance diagram](/instance_diagram.jpg)
